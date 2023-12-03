@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Navigate, useNavigate } from "react-router-dom";
 
-function App() {
+
+const App = () => {
+  const navigate = useNavigate();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div class="startHeader"></div>
+      <div class="container text-center head-box">
+        <div class="row align-items-start">
+          <div class="box name">RITIKA SAHANI</div>
+          <div class="col box gutter">
+          </div>
+          <div class="box name">
+            <div class="form-check form-switch">
+              <input class="form-check-input switchc" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  )
 }
 
 export default App;
