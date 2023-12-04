@@ -4,9 +4,6 @@
 .startHeader{
   height: 10vh;
 }
-.col{
-  color: white;
-}
 
 .name{
   color:white;
@@ -14,13 +11,16 @@
   font-size: medium;
   letter-spacing: 3px;
   display: flex;
-  justify-content: space-between;
 }
 .box{
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
   display: inline-block;
   width: fit-content;
-  /* height: fit-content; */
 }
-.gutter{
-  width: auto;
+.head-box{
+  display: flex;
+  justify-content: space-between;
 }
