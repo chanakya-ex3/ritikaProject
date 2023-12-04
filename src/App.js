@@ -19,24 +19,27 @@ const App = () => {
         </div>
       </div>
       <div class="horizontal-gutter"></div>
-      <div class="row g-0 text-center">
+      <div class="row g-0 text-center colorsx2">
         <div class="col-sm-6 col-md">
           <div className="left-colx">
-            <img class="profile-image" src={logo} alt="image not found" />
+            <img class="profile-image" src={logo} alt="not found" />
             <div className="qualities qual1">QUALITIES</div>
             <div className="qualities qual2"> MORE QUALITIES</div>
             <div className="qualities qual3">MAYBE I AM FUN</div>
           </div>
         </div>
-        <div class="col-sm-6 col-md">
+        <div class="col-sm-6 col-md colorsx1">
           <div className="horizontal-gutter"></div>
           <div className="right-colx">
-          <h1 className="right-elements right-head">UI / UX</h1>
-          <h3 className="right-elements right-sub-head">DESIGNER</h3>
-          <h4 className="right-elements right-body  ">Lorem ipsum dolor sit amet consectetur. A neque urna mi lacinia augue leo tellus dictum eleifend. Massa placerat odio velit dolor leo.</h4>
+            <div>
+              <h1 className="right-elements right-head">UI / UX</h1>
+              <h3 className="right-elements right-sub-head">DESIGNER</h3>
+            </div>
+            <h4 className="right-elements right-body  ">Lorem ipsum dolor sit amet consectetur. A neque urna mi lacinia augue leo tellus dictum eleifend. Massa placerat odio velit dolor leo.</h4>
           </div>
         </div>
       </div>
+      
     </>
   )
 }
