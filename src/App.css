@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-.startHeader{
+.horizontal-gutter{
   height: 10vh;
 }
 
@@ -15,12 +15,78 @@
 .box{
   padding-left: 0%;
   padding-right: 0%;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
   display: inline-block;
   width: fit-content;
 }
 .head-box{
   display: flex;
   justify-content: space-between;
+}
+
+.landing-content{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile-image{
+  width: 45%;
+}
+
+.left-colx{
+ position: relative;
+ width: 100%;
+ height: 100%;
+}
+
+.qualities{
+  font-size:140%;
+  padding: 0.25vw 0.5vw;
+  background-color: #FE0064;
+  color: #000000;
+  width: fit-content;
+}
+
+.qual1{
+  position: absolute;
+  left: 22%;
+  top:5%;
+
+
+}
+
+.qual2{
+  position:absolute;
+  left: 68%;
+  top: 20%;
+}
+
+.qual3{
+  position: absolute;
+  left: 17%;
+  top:96%;
+}
+
+.right-colx{
+  width: 60%;
+  padding: 1%;
+}
+
+.right-elements{
+  text-align: left;
+}
+
+.right-head{
+  color: #FE0064;
+  font-size:800%;
+}
+
+.right-sub-head{
+  color: #FE0064;
+  font-size: 200%;
+}
+
+.right-body{
+  color: #FFFFFF;
 }
