@@ -1,5 +1,20 @@
 .App {
   text-align: center;
+  
+}
+
+.hollow-bold{
+  font-family: "MyHollow";
+
+}
+
+.thin{
+  font-family: "MyThin";
+}
+
+.navigation{
+  position:sticky;
+  top: 0;
 }
 
 .horizontal-gutter {
@@ -21,6 +36,10 @@
   margin-right: 5%;
   display: inline-block;
   width: fit-content;
+}
+
+.pivot-point{
+  scroll-snap-align: start;
 }
 
 .head-box {
@@ -100,9 +119,57 @@
   font-size: max(1em, 1cqi);
 }
 
+.footer{
+  padding: 0;
+  margin: 0;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  bottom: 0%;
+  background-color: #000000;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.footer-red{
+  color: #FE0064;
+  padding: 10%;
+  padding-top: 2vh;
+}
+.footer-context{
+  padding: 10%;
+  padding-top: 5vh;
+  font-family:'Courier New', Courier, monospace;
+  color: white;
+  width: 40%;
+}
+
+.want-to{
+  font-size: max(2cqi,1.5em);
+}
+
+.collab{
+  font-size: max(3cqi,2em);
+}
+
 @media all and (max-width: 575px){
     .right-colx{
       display: flex;
       justify-content: space-between;
+    }
+    .footer-content{
+      display: contents;
+    }
+    .footer-red{
+      padding-bottom: 2%;
+    }
+    .footer-context{
+      width: 100%;
+      font-size: 3.5cqi;
+      padding-top: 0px ;
     }
 }

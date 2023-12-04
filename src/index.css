@@ -3,16 +3,32 @@
   src: url("./font/Gobold_Extra1.woff") format("woff");
 }
 
+@font-face {
+  font-family: "MyHollow";
+  src: url("./font/Gobold_Hollow_Bold.ttf");
+
+}
+
+@font-face {
+  font-family: "MyThin";
+  src: url("./font/Gobold_Light.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
 body {
   background-color: #202020;
 
   margin: 0;
-  font-family: 'MyFont',sans-serif;
+  font-family: 'MyFont', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 
 code {
-  font-family: 'MyFont',sans-serif;
+  font-family: 'MyFont', sans-serif;
 }
