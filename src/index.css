@@ -20,8 +20,6 @@ html {
 }
 
 body {
-  background-color: #202020;
-
   margin: 0;
   font-family: 'MyFont', sans-serif;
   -webkit-font-smoothing: antialiased;
