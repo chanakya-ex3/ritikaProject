@@ -15,9 +15,10 @@ const App = () => {
         <div class="head-box">
           <div class="box name">RITIKA SAHANI</div>
           <div class="box">
-            <div class="form-check form-switch">
-              <input class="form-check-input switchc" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-            </div>
+            <label className="switchx">
+              <input type="checkbox" />
+              <span className="sliderx"></span>
+            </label>
           </div>
         </div>
       </div>
