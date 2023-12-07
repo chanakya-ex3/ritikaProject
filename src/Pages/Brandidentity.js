@@ -42,8 +42,12 @@ const BrandIdentity = () => {
                     Records.map(record => {
                         return (
                             <>
-                                <div className="card">
-                                    {/* <img className="card-image" src="./images/bamboo.jpeg" /> */}
+                                <div className="cardx">
+                                    <div className="internal-card">
+                                    <img className="card-image" src="./images/bamboo.jpeg" />
+                                    <div className="card-title">{record.name}</div>
+                                    <div className="card-sub-title">{record.desc}</div>
+                                    </div>
                                 </div>
                             </>
                         )
