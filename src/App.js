@@ -27,6 +27,18 @@ const App = () => {
   function goToBrand(){
     navigate('/brand');
   }
+  function goToCase(){
+    navigate('/case');
+  }
+  function goToExperience(){
+    navigate('/experience');
+  }
+  function goToPassion(){
+    navigate('/passion');
+  }
+  function goToPosters(){
+    navigate('/posters');
+  }
 
   return (
     <>
@@ -79,7 +91,7 @@ const App = () => {
               </div>
             </div>
             <div className="vertical-rule" data-aos="fade-up"></div>
-            <div className="index-item">
+            <div className="index-item" onClick={goToCase}>
               <div className="index-red hollow-bold">CASE</div>
               <div className="index-red">STUDY</div>
               <div className="bottom-text-group">
@@ -88,7 +100,7 @@ const App = () => {
               </div>
             </div>
             <div className="vertical-rule" data-aos="fade-up"></div>
-            <div className="index-item">
+            <div className="index-item" onClick={goToPosters}>
               <div className="index-red single-line-index">POSTERS</div>
               <div className="bottom-text-group">
                 <div className="check-it-out">CHECK IT OUT</div>
@@ -96,7 +108,7 @@ const App = () => {
               </div>
             </div>
             <div className="vertical-rule" data-aos="fade-up"></div>
-            <div className="index-item">
+            <div className="index-item" onClick={goToPassion}>
               <div className="index-red hollow-bold">PASSION</div>
               <div className="index-red">PROJECT</div>
               <div className="bottom-text-group">
@@ -105,7 +117,7 @@ const App = () => {
               </div>
             </div>
             <div className="vertical-rule" data-aos="fade-up"></div>
-            <div className="index-item">
+            <div className="index-item" onClick={goToExperience}>
               <div className="index-red single-line-index">EXPERIENCE</div>
               <div className="bottom-text-group">
                 <div className="check-it-out">CHECK IT OUT</div>
