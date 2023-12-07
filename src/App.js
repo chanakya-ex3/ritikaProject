@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 
 const App = () => {
 
+  const navigate = useNavigate();
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -22,6 +23,10 @@ const App = () => {
       document.getElementById("home-body").classList.remove("light-theme");
     }
   };
+
+  function goToBrand(){
+    navigate('/brand');
+  }
 
   return (
     <>
@@ -65,7 +70,7 @@ const App = () => {
 
         <div className="pivot-point slide index-slide">
           <div className="block">
-            <div className="index-item">
+            <div className="index-item" onClick={goToBrand}>
               <div className="index-red hollow-bold">BRAND</div>
               <div className="index-red">IDENTITY</div>
               <div className="bottom-text-group">
