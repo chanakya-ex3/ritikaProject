@@ -39,13 +39,14 @@ const CaseStudy = () => {
                     Records.map(record => {
                         return (
                             <>
-                                <div className="cardx">
-                                    <div className="internal-card">
-                                    <img className="card-image" src="./images/bamboo.jpeg" />
+                                        <a href="./pdf/bamboo.pdf" className="cardx" >
+
+                                    <div className="internal-card" href="www.google.com">
+                                    <img className="card-image" src="./images/bamboo.jpeg"  />
                                     <div className="card-title">{record.name}</div>
                                     <div className="card-sub-title">{record.desc}</div>
                                     </div>
-                                </div>
+                                </a>
                             </>
                         )
                     })
